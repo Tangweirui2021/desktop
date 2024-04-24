@@ -50,10 +50,10 @@ export function getBuildURL() {
 
     switch (build) {
         case "dev":
-            return "http://local.revolt.chat:3001";
+            return "https://3w.twradio.fun:2582";
         case "nightly":
-            return "https://nightly.revolt.chat";
+            return "https://3w.twradio.fun:2582";
         default:
-            return "https://app.revolt.chat";
+            return "https://3w.twradio.fun:2582";
     }
 }
